@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style>
+        .citta_list a {
+            background-color: #E4F4FF;
+            border: 1px solid rgba(0, 0, 0, 0.1);
+            box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+            display: block;
+            float: left;
+            margin: 0.5%;
+            padding: 1%;
+            text-align: center;
+            width: 30%;
+            cursor: pointer;
+            position: relative;
+            font-weight: normal !important;
+            color: rgba(0, 0, 0, 0.6) !important;
+            text-shadow: 1px 1px rgba(255, 255, 255, 0.5);
+            transition: background-color 0.5s;
+            -moz-transition: background-color 0.5s;
+            -webkit-transition: background-color 0.5s;
+            -o-transition: background-color 0.5s;
+            -ms-transition: background-color 0.5s;
+            font-size: 14px;
+            line-height: 15px;
+            height: 70px;
+            text-decoration: none;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .citta_list a strong {
+            display: block;
+            text-align: center;
+            font-size: 20px;
+            font-family: 'Homenaje';
+            margin-bottom: 10px;
+            font-weight: 600;
+        }
+
+        .citta_list a span {
+            position: absolute;
+            display: none;
+            padding: 10px;
+            color: rgba(255, 255, 255, 0.8);
+            text-shadow: -1px -1px rgba(0, 0, 0, 0.2);
+            font-size: 16px;
+        }
+
+        .tooltip_a_bottom {
+            background: none repeat scroll 0 0 #75b5e1;
+            border: 1px solid rgba(0, 0, 0, 0.1);
+            position: relative;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="citta_list"><a
+            href="https://web.archive.org/web/20220927012101/http://www.clubmagellano.it/prenotazioni-club-magellano/?viag=Okt&amp;pack=Roul&amp;citta=Agrate"
+            target="_blank" rel="nofollow" style="height: 70px;"><strong>Agrate</strong>fermata autostradale, ore
+            22:40<span class="tooltip_a_bottom" style="left: 75px; bottom: 90px;"><strong>109 €</strong></span></a>
+        <a href="https://web.archive.org/web/20220927012101/http://www.clubmagellano.it/prenotazioni-club-magellano/?viag=Okt&amp;pack=Roul&amp;citta=Alessandria"
+            target="_blank" rel="nofollow" style="height: 70px;"><strong>Alessandria</strong>Casello Ovest, ore
+            20:30<span class="tooltip_a_bottom" style="left: 75px; bottom: 90px;"><strong>124 €</strong></span></a><a
+            href="https://web.archive.org/web/20220927012101/http://www.clubmagellano.it/prenotazioni-club-magellano/?viag=Okt&amp;pack=Roul&amp;citta=Ancona"
+            target="_blank" rel="nofollow" style="height: 70px;"><strong>Ancona</strong>Casello Sud, ore 19:30<span
+                class="tooltip_a_bottom" style="left: 75px; bottom: 90px;"><strong>134 €</strong></span></a><a
+            href="https://web.archive.org/web/20220927012101/http://www.clubmagellano.it/prenotazioni-club-magellano/?viag=Okt&amp;pack=Roul&amp;citta=Arezzo"
+            target="_blank" rel="nofollow" style="height: 70px;"><strong>Arezzo</strong>casello autostradale (parcheggio
+            ristorante), ore 20:45<span class="tooltip_a_bottom" style="left: 75px; bottom: 90px;"><strong>140
+                    €</strong></span></a><a
+            href="https://web.archive.org/web/20220927012101/http://www.clubmagellano.it/prenotazioni-club-magellano/?viag=Okt&amp;pack=Roul&amp;citta=Ascoli-Piceno"
+            target="_blank" rel="nofollow" style="height: 70px;"><strong>Ascoli-Piceno</strong>Via Mediterraneo 2, ore
+            18:00<span class="tooltip_a_bottom" style="left: 75px; bottom: 90px;"><strong>139 €</strong></span></a><a
+            href="https://web.archive.org/web/20220927012101/http://www.clubmagellano.it/prenotazioni-club-magellano/?viag=Okt&amp;pack=Roul&amp;citta=Asti"
+            target="_blank" rel="nofollow" style="height: 70px;"><strong>Asti</strong>Casello Ovest, ore 20:00<span
+                class="tooltip_a_bottom" style="left: 75px; bottom: 90px;"><strong>125 €</strong></span></a><a
+            href="https://web.archive.org/web/20220927012101/http://www.clubmagellano.it/prenotazioni-club-magellano/?viag=Okt&amp;pack=Roul&amp;citta=Avellino"
+            target="_blank" rel="nofollow" style="height: 70px;"><strong>Avellino</strong>Casello Est, ore 13:05<span
+                class="tooltip_a_bottom" style="left: 75px; bottom: 90px;"><strong>175 €</strong></span></a><a
+            href="https://web.archive.org/web/20220927012101/http://www.clubmagellano.it/prenotazioni-club-magellano/?viag=Okt&amp;pack=Roul&amp;citta=Bari"
+            target="_blank" rel="nofollow" style="height: 70px;"><strong>Bari</strong>Casello Sud, ore 13:30<span
+                class="tooltip_a_bottom" style="left: 75px; bottom: 90px;"><strong>165 €</strong></span></a><a
+            href="https://web.archive.org/web/20220927012101/http://www.clubmagellano.it/prenotazioni-club-magellano/?viag=Okt&amp;pack=Roul&amp;citta=Bellinzona"
+            target="_blank" rel="nofollow" style="height: 70px;"><strong>Bellinzona</strong>rotonda tra via in Tirada e
+            via
+            Monte Ceneri, ore 00:05<span class="tooltip_a_bottom" style="left: 75px; bottom: 90px;"><strong>85
+                    €</strong></span></a><a
+            href="https://web.archive.org/web/20220927012101/http://www.clubmagellano.it/prenotazioni-club-magellano/?viag=Okt&amp;pack=Roul&amp;citta=Benevento"
+            target="_blank" rel="nofollow" style="height: 70px;"><strong>Benevento</strong>Terminal Autobus Extraurbani,
+            ore
+            12:30<span class="tooltip_a_bottom" style="left: 75px; bottom: 90px;"><strong>175 €</strong></span></a><a
+            href="https://web.archive.org/web/20220927012101/http://www.clubmagellano.it/prenotazioni-club-magellano/?viag=Okt&amp;pack=Roul&amp;citta=Bergamo"
+            target="_blank" rel="nofollow" style="height: 70px;"><strong>Bergamo</strong>fermata autostradale Dalmine,
+            ore
+            23:00<span class="tooltip_a_bottom" style="left: 75px; bottom: 90px;"><strong>109 €</strong></span></a><a
+            href="https://web.archive.org/web/20220927012101/http://www.clubmagellano.it/prenotazioni-club-magellano/?viag=Okt&amp;pack=Roul&amp;citta=Bologna"
+            target="_blank" rel="nofollow" style="height: 70px;"><strong>Bologna</strong>Via Togliatti 13 (parcheggio Mc
+            Donald's), ore 22:30<span class="tooltip_a_bottom" style="left: 75px; bottom: 90px;"><strong>129
+                    €</strong></span></a><a
+            href="https://web.archive.org/web/20220927012101/http://www.clubmagellano.it/prenotazioni-club-magellano/?viag=Okt&amp;pack=Roul&amp;citta=Bolzano"
+            target="_blank" rel="nofollow" style="height: 70px;"><strong>Bolzano</strong>Casello Sud, ore 02:30<span
+                class="tooltip_a_bottom" style="left: 75px; bottom: 90px;"><strong>90 €</strong></span></a><a
+            href="https://web.archive.org/web/20220927012101/http://www.clubmagellano.it/prenotazioni-club-magellano/?viag=Okt&amp;pack=Roul&amp;citta=Brescia"
+            target="_blank" rel="nofollow" style="height: 70px;"><strong>Brescia</strong>Casello Centro, ore 23:30<span
+                class="tooltip_a_bottom" style="left: 75px; bottom: 90px;"><strong>109 €</strong></span></a><a
+            href="https://web.archive.org/web/20220927012101/http://www.clubmagellano.it/prenotazioni-club-magellano/?viag=Okt&amp;pack=Roul&amp;citta=Campobasso"
+            target="_blank" rel="nofollow" style="height: 70px;"><strong>Campobasso</strong>Casello Termoli, ore
+            16:00<span class="tooltip_a_bottom" style="left: 75px; bottom: 90px;"><strong>159 €</strong></span></a><a
+            href="https://web.archive.org/web/20220927012101/http://www.clubmagellano.it/prenotazioni-club-magellano/?viag=Okt&amp;pack=Roul&amp;citta=Canosa"
+            target="_blank" rel="nofollow" style="height: 70px;"><strong>Canosa</strong>Casello Canosa, di fronte
+            Canoplast
+            , ore 14:15<span class="tooltip_a_bottom" style="left: 75px; bottom: 90px;"><strong>165
+                    €</strong></span></a><a
+            href="https://web.archive.org/web/20220927012101/http://www.clubmagellano.it/prenotazioni-club-magellano/?viag=Okt&amp;pack=Roul&amp;citta=Carpi"
+            target="_blank" rel="nofollow" style="height: 70px;"><strong>Carpi</strong>Casello, ore 23:55<span
+                class="tooltip_a_bottom" style="left: 75px; bottom: 90px;"><strong>125 €</strong></span></a><a
+            href="https://web.archive.org/web/20220927012101/http://www.clubmagellano.it/prenotazioni-club-magellano/?viag=Okt&amp;pack=Roul&amp;citta=Caserta"
+            target="_blank" rel="nofollow" style="height: 70px;"><strong>Caserta</strong>Casello Caserta Nord, ore
+            14:45<span class="tooltip_a_bottom" style="left: 75px; bottom: 90px;"><strong>175 €</strong></span></a><a
+            href="https://web.archive.org/web/20220927012101/http://www.clubmagellano.it/prenotazioni-club-magellano/?viag=Okt&amp;pack=Roul&amp;citta=Cassino"
+            target="_blank" rel="nofollow" style="height: 70px;"><strong>Cassino</strong>Di fronte Hotel Edra Palace,
+            ore
+            15:30<span class="tooltip_a_bottom" style="left: 75px; bottom: 90px;"><strong>159 €</strong></span></a><a
+            href="https://web.archive.org/web/20220927012101/http://www.clubmagellano.it/prenotazioni-club-magellano/?viag=Okt&amp;pack=Roul&amp;citta=Cecina"
+            target="_blank" rel="nofollow" style="height: 70px;"><strong>Cecina</strong>Fermata Bus Cecina Ospedale in
+            Via
+            Montanara, ore 18:35<span class="tooltip_a_bottom" style="left: 75px; bottom: 90px;"><strong>145
+                    €</strong></span></a><a
+            href="https://web.archive.org/web/20220927012101/http://www.clubmagellano.it/prenotazioni-club-magellano/?viag=Okt&amp;pack=Roul&amp;citta=Cesena"
+            target="_blank" rel="nofollow" style="height: 70px;"><strong>Cesena</strong>Casello Cesena Nord al
+            Parcheggio
+            c/o Piazza Caduti del Lavoro, ore 21:15<span class="tooltip_a_bottom"
+                style="left: 75px; bottom: 90px;"><strong>134 €</strong></span></a><a
+            href="https://web.archive.org/web/20220927012101/http://www.clubmagellano.it/prenotazioni-club-magellano/?viag=Okt&amp;pack=Roul&amp;citta=Chivasso"
+            target="_blank" rel="nofollow" style="height: 70px;"><strong>Chivasso</strong>Area Parcheggio fuori dal
+            l'Uscita
+            Autostradale Chivasso Centro, ore 19:50<span class="tooltip_a_bottom"
+                style="left: 75px; bottom: 90px;"><strong>125 €</strong></span></a><a
+            href="https://web.archive.org/web/20220927012101/http://www.clubmagellano.it/prenotazioni-club-magellano/?viag=Okt&amp;pack=Roul&amp;citta=Civitanova-Marche"
+            target="_blank" rel="nofollow" style="height: 70px;"><strong>Civitanova-Marche</strong>Casello Autostradale,
+            ore
+            19:00<span class="tooltip_a_bottom" style="left: 75px; bottom: 90px;"><strong>145 €</strong></span></a><a
+            href="https://web.archive.org/web/20220927012101/http://www.clubmagellano.it/prenotazioni-club-magellano/?viag=Okt&amp;pack=Roul&amp;citta=Civitavecchia"
+            target="_blank" rel="nofollow" style="height: 70px;"><strong>Civitavecchia</strong>Distributore Tamoil fuori
+            uscita dell' A12 Civitavecchia Nord, ore 13:35<span class="tooltip_a_bottom"
+                style="left: 75px; bottom: 90px;"><strong>155 €</strong></span></a><a
+            href="https://web.archive.org/web/20220927012101/http://www.clubmagellano.it/prenotazioni-club-magellano/?viag=Okt&amp;pack=Roul&amp;citta=Como"
+            target="_blank" rel="nofollow" style="height: 70px;"><strong>Como</strong>Casello Como Centro - Stazione FNM
+            Grandate-Breccia (via Colombo), ore 23:00<span class="tooltip_a_bottom"
+                style="left: 75px; bottom: 90px;"><strong>95 €</strong></span></a><a
+            href="https://web.archive.org/web/20220927012101/http://www.clubmagellano.it/prenotazioni-club-magellano/?viag=Okt&amp;pack=Roul&amp;citta=Cremona"
+            target="_blank" rel="nofollow" style="height: 70px;"><strong>Cremona</strong>Casello (A21), ore 22:40<span
+                class="tooltip_a_bottom" style="left: 75px; bottom: 90px;"><strong>114 €</strong></span></a><a
+            href="https://web.archive.org/web/20220927012101/http://www.clubmagellano.it/prenotazioni-club-magellano/?viag=Okt&amp;pack=Roul&amp;citta=Faenza"
+            target="_blank" rel="nofollow" style="height: 70px;"><strong>Faenza</strong>Rotatoria di fronte Hotel
+            Faenza,
+            ore 21:30<span class="tooltip_a_bottom" style="left: 75px; bottom: 90px;"><strong>125
+                    €</strong></span></a><a
+            href="https://web.archive.org/web/20220927012101/http://www.clubmagellano.it/prenotazioni-club-magellano/?viag=Okt&amp;pack=Roul&amp;citta=Fano"
+            target="_blank" rel="nofollow" style="height: 70px;"><strong>Fano</strong>Parcheggio via G.Soncino, ore
+            20:15<span class="tooltip_a_bottom" style="left: 75px; bottom: 90px;"><strong>135 €</strong></span></a><a
+            href="https://web.archive.org/web/20220927012101/http://www.clubmagellano.it/prenotazioni-club-magellano/?viag=Okt&amp;pack=Roul&amp;citta=Ferrara"
+            target="_blank" rel="nofollow" style="height: 70px;"><strong>Ferrara</strong>Casello Nord, ore 23:30<span
+                class="tooltip_a_bottom" style="left: 75px; bottom: 90px;"><strong>124 €</strong></span></a><a
+            href="https://web.archive.org/web/20220927012101/http://www.clubmagellano.it/prenotazioni-club-magellano/?viag=Okt&amp;pack=Roul&amp;citta=Firenze"
+            target="_blank" rel="nofollow" style="height: 70px;"><strong>Firenze</strong>area di servizio al casello
+            Firenze
+            Nord, ore 21:30<span class="tooltip_a_bottom" style="left: 75px; bottom: 90px;"><strong>144
+                    €</strong></span></a><a
+            href="https://web.archive.org/web/20220927012101/http://www.clubmagellano.it/prenotazioni-club-magellano/?viag=Okt&amp;pack=Roul&amp;citta=Foggia"
+            target="_blank" rel="nofollow" style="height: 70px;"><strong>Foggia</strong>Casello, ore 15:00<span
+                class="tooltip_a_bottom" style="left: 75px; bottom: 90px;"><strong>160 €</strong></span></a><a
+            href="https://web.archive.org/web/20220927012101/http://www.clubmagellano.it/prenotazioni-club-magellano/?viag=Okt&amp;pack=Roul&amp;citta=Follonica"
+            target="_blank" rel="nofollow" style="height: 70px;"><strong>Follonica</strong>Parcheggio PAM, ore
+            17:20<span class="tooltip_a_bottom" style="left: 75px; bottom: 90px;"><strong>145 €</strong></span></a><a
+            href="https://web.archive.org/web/20220927012101/http://www.clubmagellano.it/prenotazioni-club-magellano/?viag=Okt&amp;pack=Roul&amp;citta=Forli"
+            target="_blank" rel="nofollow" style="height: 70px;"><strong>Forli</strong>Casello, ore 21:20<span
+                class="tooltip_a_bottom" style="left: 75px; bottom: 90px;"><strong>125 €</strong></span></a><a
+            href="https://web.archive.org/web/20220927012101/http://www.clubmagellano.it/prenotazioni-club-magellano/?viag=Okt&amp;pack=Roul&amp;citta=Frosinone"
+            target="_blank" rel="nofollow" style="height: 70px;"><strong>Frosinone</strong>Casello, ore 16:00<span
+                class="tooltip_a_bottom" style="left: 75px; bottom: 90px;"><strong>175 €</strong></span></a><a
+            href="https://web.archive.org/web/20220927012101/http://www.clubmagellano.it/prenotazioni-club-magellano/?viag=Okt&amp;pack=Roul&amp;citta=Gallarate"
+            target="_blank" rel="nofollow" style="height: 70px;"><strong>Gallarate</strong>Casello, ore 22:45<span
+                class="tooltip_a_bottom" style="left: 75px; bottom: 90px;"><strong>109 €</strong></span></a><a
+            href="https://web.archive.org/web/20220927012101/http://www.clubmagellano.it/prenotazioni-club-magellano/?viag=Okt&amp;pack=Roul&amp;citta=Genova"
+            target="_blank" rel="nofollow" style="height: 70px;"><strong>Genova</strong>Piazza del Principe (MM
+            Principe),
+            ore 20:30<span class="tooltip_a_bottom" style="left: 75px; bottom: 90px;"><strong>134
+                    €</strong></span></a><a
+            href="https://web.archive.org/web/20220927012101/http://www.clubmagellano.it/prenotazioni-club-magellano/?viag=Okt&amp;pack=Roul&amp;citta=Giulianova"
+            target="_blank" rel="nofollow" style="height: 70px;"><strong>Giulianova</strong>Casello Autostradale
+            Giulianova-Teramo, ore 18:00<span class="tooltip_a_bottom" style="left: 75px; bottom: 90px;"><strong>150
+                    €</strong></span></a><a
+            href="https://web.archive.org/web/20220927012101/http://www.clubmagellano.it/prenotazioni-club-magellano/?viag=Okt&amp;pack=Roul&amp;citta=Grosseto"
+            target="_blank" rel="nofollow" style="height: 70px;"><strong>Grosseto</strong>Via Topazio 2, ore 16:40<span
+                class="tooltip_a_bottom" style="left: 75px; bottom: 90px;"><strong>145 €</strong></span></a><a
+            href="https://web.archive.org/web/20220927012101/http://www.clubmagellano.it/prenotazioni-club-magellano/?viag=Okt&amp;pack=Roul&amp;citta=Grumello"
+            target="_blank" rel="nofollow" style="height: 70px;"><strong>Grumello</strong>Casello Grumello-Telgate, ore
+            23:15<span class="tooltip_a_bottom" style="left: 75px; bottom: 90px;"><strong>109 €</strong></span></a><a
+            href="https://web.archive.org/web/20220927012101/http://www.clubmagellano.it/prenotazioni-club-magellano/?viag=Okt&amp;pack=Roul&amp;citta=Imola"
+            target="_blank" rel="nofollow" style="height: 70px;"><strong>Imola</strong>Casello, ore 22:00<span
+                class="tooltip_a_bottom" style="left: 75px; bottom: 90px;"><strong>125 €</strong></span></a><a
+            href="https://web.archive.org/web/20220927012101/http://www.clubmagellano.it/prenotazioni-club-magellano/?viag=Okt&amp;pack=Roul&amp;citta=La-Spezia"
+            target="_blank" rel="nofollow" style="height: 70px;"><strong>La-Spezia</strong>Area Servizio Magra Est 5km
+            dopo
+            Sarzana, ore 19:00<span class="tooltip_a_bottom" style="left: 75px; bottom: 90px;"><strong>130
+                    €</strong></span></a><a
+            href="https://web.archive.org/web/20220927012101/http://www.clubmagellano.it/prenotazioni-club-magellano/?viag=Okt&amp;pack=Roul&amp;citta=Ladispoli"
+            target="_blank" rel="nofollow" style="height: 70px;"><strong>Ladispoli</strong>Parcheggio fuori Uscita A12
+            Ladispoli/Cerveteri in Via Settevene Paolo, ore 13:10<span class="tooltip_a_bottom"
+                style="left: 75px; bottom: 90px;"><strong>164 €</strong></span></a><a
+            href="https://web.archive.org/web/20220927012101/http://www.clubmagellano.it/prenotazioni-club-magellano/?viag=Okt&amp;pack=Roul&amp;citta=Lainate"
+            target="_blank" rel="nofollow" style="height: 70px;"><strong>Lainate</strong>Parcheggio Via Lepetit, ore
+            22:30<span class="tooltip_a_bottom" style="left: 75px; bottom: 90px;"><strong>109 €</strong></span></a><a
+            href="https://web.archive.org/web/20220927012101/http://www.clubmagellano.it/prenotazioni-club-magellano/?viag=Okt&amp;pack=Roul&amp;citta=Lecco"
+            target="_blank" rel="nofollow" style="height: 70px;"><strong>Lecco</strong>Parcheggio di fronte al centro
+            sportivo Albione, Via Buozzi, ore 23:15<span class="tooltip_a_bottom"
+                style="left: 75px; bottom: 90px;"><strong>109 €</strong></span></a><a
+            href="https://web.archive.org/web/20220927012101/http://www.clubmagellano.it/prenotazioni-club-magellano/?viag=Okt&amp;pack=Roul&amp;citta=Livorno"
+            target="_blank" rel="nofollow" style="height: 70px;"><strong>Livorno</strong>Parcheggio Stadio Armando
+            Picchi,
+            ore 19:20<span class="tooltip_a_bottom" style="left: 75px; bottom: 90px;"><strong>145
+                    €</strong></span></a><a
+            href="https://web.archive.org/web/20220927012101/http://www.clubmagellano.it/prenotazioni-club-magellano/?viag=Okt&amp;pack=Roul&amp;citta=Lodi"
+            target="_blank" rel="nofollow" style="height: 70px;"><strong>Lodi</strong>casello, ore 20:30<span
+                class="tooltip_a_bottom" style="left: 75px; bottom: 90px;"><strong>109 €</strong></span></a><a
+            href="https://web.archive.org/web/20220927012101/http://www.clubmagellano.it/prenotazioni-club-magellano/?viag=Okt&amp;pack=Roul&amp;citta=Lucca"
+            target="_blank" rel="nofollow" style="height: 70px;"><strong>Lucca</strong>Casello Lucca Est presso
+            parcheggio
+            Mc Donalds Lucca Europa, ore 20:15<span class="tooltip_a_bottom"
+                style="left: 75px; bottom: 90px;"><strong>140
+                    €</strong></span></a><a
+            href="https://web.archive.org/web/20220927012101/http://www.clubmagellano.it/prenotazioni-club-magellano/?viag=Okt&amp;pack=Roul&amp;citta=Lugano"
+            target="_blank" rel="nofollow" style="height: 70px;"><strong>Lugano</strong>Uscita Carona, (parcheggio Mc
+            Donald's), ore 23:40<span class="tooltip_a_bottom" style="left: 75px; bottom: 90px;"><strong>85
+                    €</strong></span></a><a
+            href="https://web.archive.org/web/20220927012101/http://www.clubmagellano.it/prenotazioni-club-magellano/?viag=Okt&amp;pack=Roul&amp;citta=Mantova"
+            target="_blank" rel="nofollow" style="height: 70px;"><strong>Mantova</strong>casello Nord, ore 00:15<span
+                class="tooltip_a_bottom" style="left: 75px; bottom: 90px;"><strong>95 €</strong></span></a><a
+            href="https://web.archive.org/web/20220927012101/http://www.clubmagellano.it/prenotazioni-club-magellano/?viag=Okt&amp;pack=Roul&amp;citta=Massa-Carrara"
+            target="_blank" rel="nofollow" style="height: 70px;"><strong>Massa-Carrara</strong>Casello Carrara, ore
+            19:35<span class="tooltip_a_bottom" style="left: 75px; bottom: 90px;"><strong>140 €</strong></span></a><a
+            href="https://web.archive.org/web/20220927012101/http://www.clubmagellano.it/prenotazioni-club-magellano/?viag=Okt&amp;pack=Roul&amp;citta=Melegnano"
+            target="_blank" rel="nofollow" style="height: 70px;"><strong>Melegnano</strong>Via Emilia (parcheggio Lidl),
+            ore
+            21:00<span class="tooltip_a_bottom" style="left: 75px; bottom: 90px;"><strong>109 €</strong></span></a><a
+            href="https://web.archive.org/web/20220927012101/http://www.clubmagellano.it/prenotazioni-club-magellano/?viag=Okt&amp;pack=Roul&amp;citta=Mestre"
+            target="_blank" rel="nofollow" style="height: 70px;"><strong>Mestre</strong>Casello alla rotonda Holiday
+            Inn,
+            ore 01:00<span class="tooltip_a_bottom" style="left: 75px; bottom: 90px;"><strong>105
+                    €</strong></span></a><a
+            href="https://web.archive.org/web/20220927012101/http://www.clubmagellano.it/prenotazioni-club-magellano/?viag=Okt&amp;pack=Roul&amp;citta=Milano"
+            target="_blank" rel="nofollow" style="height: 70px;"><strong>Milano</strong>Via Paleocapa 4 (MM Cadorna),
+            ore
+            22:00<span class="tooltip_a_bottom" style="left: 75px; bottom: 90px;"><strong>104 €</strong></span></a><a
+            href="https://web.archive.org/web/20220927012101/http://www.clubmagellano.it/prenotazioni-club-magellano/?viag=Okt&amp;pack=Roul&amp;citta=Milano-Famagosta"
+            target="_blank" rel="nofollow" style="height: 70px;"><strong>Milano-Famagosta</strong>via Palatucci (interno
+            terminal bus Famagosta), fermata bus 71), ore 21:30<span class="tooltip_a_bottom"
+                style="left: 75px; bottom: 90px;"><strong>104 €</strong></span></a><a
+            href="https://web.archive.org/web/20220927012101/http://www.clubmagellano.it/prenotazioni-club-magellano/?viag=Okt&amp;pack=Roul&amp;citta=Milano-Lampugnano"
+            target="_blank" rel="nofollow" style="height: 70px;"><strong>Milano-Lampugnano</strong>via Natta (interno
+            terminal bus Lampugnano), ore 22:20<span class="tooltip_a_bottom"
+                style="left: 75px; bottom: 90px;"><strong>104
+                    €</strong></span></a><a
+            href="https://web.archive.org/web/20220927012101/http://www.clubmagellano.it/prenotazioni-club-magellano/?viag=Okt&amp;pack=Roul&amp;citta=Modena"
+            target="_blank" rel="nofollow" style="height: 70px;"><strong>Modena</strong>Casello Nord, ore 23:30<span
+                class="tooltip_a_bottom" style="left: 75px; bottom: 90px;"><strong>125 €</strong></span></a><a
+            href="https://web.archive.org/web/20220927012101/http://www.clubmagellano.it/prenotazioni-club-magellano/?viag=Okt&amp;pack=Roul&amp;citta=Montemarciano"
+            target="_blank" rel="nofollow" style="height: 70px;"><strong>Montemarciano</strong>Parcheggio Fuori Casello
+            Montemarciano, ore 19:45<span class="tooltip_a_bottom" style="left: 75px; bottom: 90px;"><strong>139
+                    €</strong></span></a><a
+            href="https://web.archive.org/web/20220927012101/http://www.clubmagellano.it/prenotazioni-club-magellano/?viag=Okt&amp;pack=Roul&amp;citta=Monza"
+            target="_blank" rel="nofollow" style="height: 70px;"><strong>Monza</strong>centro commerciale Bennet , via
+            lario
+            19 INGRESSO PRINCIPALE PORTA MONZA, ore 22:45<span class="tooltip_a_bottom"
+                style="left: 75px; bottom: 90px;"><strong>95 €</strong></span></a><a
+            href="https://web.archive.org/web/20220927012101/http://www.clubmagellano.it/prenotazioni-club-magellano/?viag=Okt&amp;pack=Roul&amp;citta=Napoli"
+            target="_blank" rel="nofollow" style="height: 70px;"><strong>Napoli</strong>Piazza Garibaldi presso Hotel
+            Ramada, ore 14:00<span class="tooltip_a_bottom" style="left: 75px; bottom: 90px;"><strong>175
+                    €</strong></span></a><a
+            href="https://web.archive.org/web/20220927012101/http://www.clubmagellano.it/prenotazioni-club-magellano/?viag=Okt&amp;pack=Roul&amp;citta=Nola"
+            target="_blank" rel="nofollow" style="height: 70px;"><strong>Nola</strong>Casello - Strada Statale Bis 19,
+            ore
+            13:40<span class="tooltip_a_bottom" style="left: 75px; bottom: 90px;"><strong>175 €</strong></span></a><a
+            href="https://web.archive.org/web/20220927012101/http://www.clubmagellano.it/prenotazioni-club-magellano/?viag=Okt&amp;pack=Roul&amp;citta=Novara"
+            target="_blank" rel="nofollow" style="height: 70px;"><strong>Novara</strong>Parcheggio casello Novara Est,
+            ore
+            20:30<span class="tooltip_a_bottom" style="left: 75px; bottom: 90px;"><strong>110 €</strong></span></a><a
+            href="https://web.archive.org/web/20220927012101/http://www.clubmagellano.it/prenotazioni-club-magellano/?viag=Okt&amp;pack=Roul&amp;citta=Orbetello"
+            target="_blank" rel="nofollow" style="height: 70px;"><strong>Orbetello</strong>Parcheggio sulla SS40
+            Orbetello
+            Scalo, ore 15:55<span class="tooltip_a_bottom" style="left: 75px; bottom: 90px;"><strong>150
+                    €</strong></span></a><a
+            href="https://web.archive.org/web/20220927012101/http://www.clubmagellano.it/prenotazioni-club-magellano/?viag=Okt&amp;pack=Roul&amp;citta=Orio-al-Serio"
+            target="_blank" rel="nofollow" style="height: 70px;"><strong>Orio-al-Serio</strong>di fronte al terminal
+            Arrivi
+            dell'aeroporto, ore 23:15<span class="tooltip_a_bottom" style="left: 75px; bottom: 90px;"><strong>109
+                    €</strong></span></a><a
+            href="https://web.archive.org/web/20220927012101/http://www.clubmagellano.it/prenotazioni-club-magellano/?viag=Okt&amp;pack=Roul&amp;citta=Padova"
+            target="_blank" rel="nofollow" style="height: 70px;"><strong>Padova</strong>Casello Padova Est c/o Sheraton,
+            ore
+            00:30<span class="tooltip_a_bottom" style="left: 75px; bottom: 90px;"><strong>105 €</strong></span></a><a
+            href="https://web.archive.org/web/20220927012101/http://www.clubmagellano.it/prenotazioni-club-magellano/?viag=Okt&amp;pack=Roul&amp;citta=Palazzolo"
+            target="_blank" rel="nofollow" style="height: 70px;"><strong>Palazzolo</strong>Parcheggio fuori Casello
+            Palazzolo, ore 23:15<span class="tooltip_a_bottom" style="left: 75px; bottom: 90px;"><strong>109
+                    €</strong></span></a><a
+            href="https://web.archive.org/web/20220927012101/http://www.clubmagellano.it/prenotazioni-club-magellano/?viag=Okt&amp;pack=Roul&amp;citta=Parma"
+            target="_blank" rel="nofollow" style="height: 70px;"><strong>Parma</strong>Casello Parma ovest, parcheggio
+            Marco
+            Polo expert, ore 20:15<span class="tooltip_a_bottom" style="left: 75px; bottom: 90px;"><strong>135
+                    €</strong></span></a><a
+            href="https://web.archive.org/web/20220927012101/http://www.clubmagellano.it/prenotazioni-club-magellano/?viag=Okt&amp;pack=Roul&amp;citta=Pavia"
+            target="_blank" rel="nofollow" style="height: 70px;"><strong>Pavia</strong>Parcheggio fuori Casello
+            Autostradale
+            Pavia Sud, ore 21:25<span class="tooltip_a_bottom" style="left: 75px; bottom: 90px;"><strong>119
+                    €</strong></span></a><a
+            href="https://web.archive.org/web/20220927012101/http://www.clubmagellano.it/prenotazioni-club-magellano/?viag=Okt&amp;pack=Roul&amp;citta=Perugia"
+            target="_blank" rel="nofollow" style="height: 70px;"><strong>Perugia</strong>Stazione F.S., ore 19:00<span
+                class="tooltip_a_bottom" style="left: 75px; bottom: 90px;"><strong>140 €</strong></span></a><a
+            href="https://web.archive.org/web/20220927012101/http://www.clubmagellano.it/prenotazioni-club-magellano/?viag=Okt&amp;pack=Roul&amp;citta=Pesaro"
+            target="_blank" rel="nofollow" style="height: 70px;"><strong>Pesaro</strong>Casello Autostradale, ore
+            20:30<span class="tooltip_a_bottom" style="left: 75px; bottom: 90px;"><strong>139 €</strong></span></a><a
+            href="https://web.archive.org/web/20220927012101/http://www.clubmagellano.it/prenotazioni-club-magellano/?viag=Okt&amp;pack=Roul&amp;citta=Pescara"
+            target="_blank" rel="nofollow" style="height: 70px;"><strong>Pescara</strong>Casello Nord, ore 17:30<span
+                class="tooltip_a_bottom" style="left: 75px; bottom: 90px;"><strong>150 €</strong></span></a><a
+            href="https://web.archive.org/web/20220927012101/http://www.clubmagellano.it/prenotazioni-club-magellano/?viag=Okt&amp;pack=Roul&amp;citta=Peschiera-Borromeo"
+            target="_blank" rel="nofollow" style="height: 70px;"><strong>Peschiera-Borromeo</strong>Via A.Moro,
+            (parcheggio
+            Coop), ore 21:15<span class="tooltip_a_bottom" style="left: 75px; bottom: 90px;"><strong>109
+                    €</strong></span></a><a
+            href="https://web.archive.org/web/20220927012101/http://www.clubmagellano.it/prenotazioni-club-magellano/?viag=Okt&amp;pack=Roul&amp;citta=Peschiera-del-Garda"
+            target="_blank" rel="nofollow" style="height: 70px;"><strong>Peschiera-del-Garda</strong>Casello, ore
+            00:00<span class="tooltip_a_bottom" style="left: 75px; bottom: 90px;"><strong>105 €</strong></span></a><a
+            href="https://web.archive.org/web/20220927012101/http://www.clubmagellano.it/prenotazioni-club-magellano/?viag=Okt&amp;pack=Roul&amp;citta=Piacenza"
+            target="_blank" rel="nofollow" style="height: 70px;"><strong>Piacenza</strong>casello Sud, ore 22:20<span
+                class="tooltip_a_bottom" style="left: 75px; bottom: 90px;"><strong>114 €</strong></span></a><a
+            href="https://web.archive.org/web/20220927012101/http://www.clubmagellano.it/prenotazioni-club-magellano/?viag=Okt&amp;pack=Roul&amp;citta=Piombino"
+            target="_blank" rel="nofollow" style="height: 70px;"><strong>Piombino</strong>Viale Medaglie D'Oro e della
+            Resistenza, ore 17:50<span class="tooltip_a_bottom" style="left: 75px; bottom: 90px;"><strong>145
+                    €</strong></span></a><a
+            href="https://web.archive.org/web/20220927012101/http://www.clubmagellano.it/prenotazioni-club-magellano/?viag=Okt&amp;pack=Roul&amp;citta=Pisa"
+            target="_blank" rel="nofollow" style="height: 70px;"><strong>Pisa</strong>Bar Livorno, Via Ponte a Piglieri,
+            28,
+            ore 19:50<span class="tooltip_a_bottom" style="left: 75px; bottom: 90px;"><strong>140
+                    €</strong></span></a><a
+            href="https://web.archive.org/web/20220927012101/http://www.clubmagellano.it/prenotazioni-club-magellano/?viag=Okt&amp;pack=Roul&amp;citta=Pistoia"
+            target="_blank" rel="nofollow" style="height: 70px;"><strong>Pistoia</strong>Casello, ore 20:45<span
+                class="tooltip_a_bottom" style="left: 75px; bottom: 90px;"><strong>135 €</strong></span></a><a
+            href="https://web.archive.org/web/20220927012101/http://www.clubmagellano.it/prenotazioni-club-magellano/?viag=Okt&amp;pack=Roul&amp;citta=Portogruaro"
+            target="_blank" rel="nofollow" style="height: 70px;"><strong>Portogruaro</strong>Area di servizio Agip Viale
+            Pordenone, ore 01:45<span class="tooltip_a_bottom" style="left: 75px; bottom: 90px;"><strong>105
+                    €</strong></span></a><a
+            href="https://web.archive.org/web/20220927012101/http://www.clubmagellano.it/prenotazioni-club-magellano/?viag=Okt&amp;pack=Roul&amp;citta=Prato"
+            target="_blank" rel="nofollow" style="height: 70px;"><strong>Prato</strong>Prato Centrale, ore 21:10<span
+                class="tooltip_a_bottom" style="left: 75px; bottom: 90px;"><strong>135 €</strong></span></a><a
+            href="https://web.archive.org/web/20220927012101/http://www.clubmagellano.it/prenotazioni-club-magellano/?viag=Okt&amp;pack=Roul&amp;citta=Riccione"
+            target="_blank" rel="nofollow" style="height: 70px;"><strong>Riccione</strong>Distributore di Benzina in Via
+            E.Berlinguer, ore 20:45<span class="tooltip_a_bottom" style="left: 75px; bottom: 90px;"><strong>135
+                    €</strong></span></a><a
+            href="https://web.archive.org/web/20220927012101/http://www.clubmagellano.it/prenotazioni-club-magellano/?viag=Okt&amp;pack=Roul&amp;citta=Rimini"
+            target="_blank" rel="nofollow" style="height: 70px;"><strong>Rimini</strong>Casello Rimini Nord, ore
+            21:00<span class="tooltip_a_bottom" style="left: 75px; bottom: 90px;"><strong>134 €</strong></span></a><a
+            href="https://web.archive.org/web/20220927012101/http://www.clubmagellano.it/prenotazioni-club-magellano/?viag=Okt&amp;pack=Roul&amp;citta=Roma"
+            target="_blank" rel="nofollow" style="height: 70px;"><strong>Roma</strong>FS Saxa Rubra, ore 17:45<span
+                class="tooltip_a_bottom" style="left: 75px; bottom: 90px;"><strong>164 €</strong></span></a><a
+            href="https://web.archive.org/web/20220927012101/http://www.clubmagellano.it/prenotazioni-club-magellano/?viag=Okt&amp;pack=Roul&amp;citta=Roma-Anagnina"
+            target="_blank" rel="nofollow" style="height: 70px;"><strong>Roma-Anagnina</strong>via Tuscolana (MM
+            Anagnina),
+            ore 17:00<span class="tooltip_a_bottom" style="left: 75px; bottom: 90px;"><strong>164
+                    €</strong></span></a><a
+            href="https://web.archive.org/web/20220927012101/http://www.clubmagellano.it/prenotazioni-club-magellano/?viag=Okt&amp;pack=Roul&amp;citta=Roma-Fiumicino"
+            target="_blank" rel="nofollow" style="height: 70px;"><strong>Roma-Fiumicino</strong>Parcheggio in Via delle
+            Arti
+            171, ore 17:00<span class="tooltip_a_bottom" style="left: 75px; bottom: 90px;"><strong>164
+                    €</strong></span></a><a
+            href="https://web.archive.org/web/20220927012101/http://www.clubmagellano.it/prenotazioni-club-magellano/?viag=Okt&amp;pack=Roul&amp;citta=Rovigo"
+            target="_blank" rel="nofollow" style="height: 70px;"><strong>Rovigo</strong>Strada Regionale 88 di fronte
+            Mobilificio Brazzorotto, ore 23:55<span class="tooltip_a_bottom"
+                style="left: 75px; bottom: 90px;"><strong>124
+                    €</strong></span></a><a
+            href="https://web.archive.org/web/20220927012101/http://www.clubmagellano.it/prenotazioni-club-magellano/?viag=Okt&amp;pack=Roul&amp;citta=S.Benedetto-Tronto"
+            target="_blank" rel="nofollow" style="height: 70px;"><strong>S.Benedetto-Tronto</strong>Casello
+            Autostradale,
+            ore 18:30<span class="tooltip_a_bottom" style="left: 75px; bottom: 90px;"><strong>139
+                    €</strong></span></a><a
+            href="https://web.archive.org/web/20220927012101/http://www.clubmagellano.it/prenotazioni-club-magellano/?viag=Okt&amp;pack=Roul&amp;citta=Salerno"
+            target="_blank" rel="nofollow" style="height: 70px;"><strong>Salerno</strong>Piazza della Concordia, ore
+            13:00<span class="tooltip_a_bottom" style="left: 75px; bottom: 90px;"><strong>169 €</strong></span></a><a
+            href="https://web.archive.org/web/20220927012101/http://www.clubmagellano.it/prenotazioni-club-magellano/?viag=Okt&amp;pack=Roul&amp;citta=San-Dona-di-Piave"
+            target="_blank" rel="nofollow" style="height: 70px;"><strong>San-Dona-di-Piave</strong>Parcheggio fuori
+            Casello
+            Autostradale S.Dona sulla A4, ore 01:30<span class="tooltip_a_bottom"
+                style="left: 75px; bottom: 90px;"><strong>105 €</strong></span></a><a
+            href="https://web.archive.org/web/20220927012101/http://www.clubmagellano.it/prenotazioni-club-magellano/?viag=Okt&amp;pack=Roul&amp;citta=San-Donato-Milanese"
+            target="_blank" rel="nofollow" style="height: 70px;"><strong>San-Donato-Milanese</strong>via Giuseppe
+            Impastato
+            Milano (interno terminal Bus San Donato) corsia 4 stallo 1, ore 21:30<span class="tooltip_a_bottom"
+                style="left: 75px; bottom: 90px;"><strong>109 €</strong></span></a><a
+            href="https://web.archive.org/web/20220927012101/http://www.clubmagellano.it/prenotazioni-club-magellano/?viag=Okt&amp;pack=Roul&amp;citta=San-Severo"
+            target="_blank" rel="nofollow" style="height: 70px;"><strong>San-Severo</strong>Casello, ore 15:30<span
+                class="tooltip_a_bottom" style="left: 75px; bottom: 90px;"><strong>160 €</strong></span></a><a
+            href="https://web.archive.org/web/20220927012101/http://www.clubmagellano.it/prenotazioni-club-magellano/?viag=Okt&amp;pack=Roul&amp;citta=Santhia"
+            target="_blank" rel="nofollow" style="height: 70px;"><strong>Santhia</strong>fermata autostradale, ore
+            20:10<span class="tooltip_a_bottom" style="left: 75px; bottom: 90px;"><strong>125 €</strong></span></a><a
+            href="https://web.archive.org/web/20220927012101/http://www.clubmagellano.it/prenotazioni-club-magellano/?viag=Okt&amp;pack=Roul&amp;citta=Saronno"
+            target="_blank" rel="nofollow" style="height: 70px;"><strong>Saronno</strong>Parcheggio Burger King Fuori
+            dall'uscita di Saronno, ore 22:45<span class="tooltip_a_bottom" style="left: 75px; bottom: 90px;"><strong>95
+                    €</strong></span></a><a
+            href="https://web.archive.org/web/20220927012101/http://www.clubmagellano.it/prenotazioni-club-magellano/?viag=Okt&amp;pack=Roul&amp;citta=Savona"
+            target="_blank" rel="nofollow" style="height: 70px;"><strong>Savona</strong>Stazione F.S., ore 19:00<span
+                class="tooltip_a_bottom" style="left: 75px; bottom: 90px;"><strong>125 €</strong></span></a><a
+            href="https://web.archive.org/web/20220927012101/http://www.clubmagellano.it/prenotazioni-club-magellano/?viag=Okt&amp;pack=Roul&amp;citta=Senigallia"
+            target="_blank" rel="nofollow" style="height: 70px;"><strong>Senigallia</strong>Parcheggio fuori dal Casello
+            Autostradale Senigallia, ore 19:55<span class="tooltip_a_bottom"
+                style="left: 75px; bottom: 90px;"><strong>135
+                    €</strong></span></a><a
+            href="https://web.archive.org/web/20220927012101/http://www.clubmagellano.it/prenotazioni-club-magellano/?viag=Okt&amp;pack=Roul&amp;citta=Siena"
+            target="_blank" rel="nofollow" style="height: 70px;"><strong>Siena</strong>casello Valdichiana, ore
+            20:15<span class="tooltip_a_bottom" style="left: 75px; bottom: 90px;"><strong>140 €</strong></span></a><a
+            href="https://web.archive.org/web/20220927012101/http://www.clubmagellano.it/prenotazioni-club-magellano/?viag=Okt&amp;pack=Roul&amp;citta=Sondrio"
+            target="_blank" rel="nofollow" style="height: 70px;"><strong>Sondrio</strong>Via la Rosa, 15, Piantedo, ore
+            23:50<span class="tooltip_a_bottom" style="left: 75px; bottom: 90px;"><strong>105 €</strong></span></a><a
+            href="https://web.archive.org/web/20220927012101/http://www.clubmagellano.it/prenotazioni-club-magellano/?viag=Okt&amp;pack=Roul&amp;citta=Stradella"
+            target="_blank" rel="nofollow" style="height: 70px;"><strong>Stradella</strong>Parcheggio Centro Commerciale
+            Via
+            Circonvallazione 112, Broni, ore 22:05<span class="tooltip_a_bottom"
+                style="left: 75px; bottom: 90px;"><strong>115 €</strong></span></a><a
+            href="https://web.archive.org/web/20220927012101/http://www.clubmagellano.it/prenotazioni-club-magellano/?viag=Okt&amp;pack=Roul&amp;citta=Taranto"
+            target="_blank" rel="nofollow" style="height: 70px;"><strong>Taranto</strong>Stazione F.S., ore 12:00<span
+                class="tooltip_a_bottom" style="left: 75px; bottom: 90px;"><strong>165 €</strong></span></a><a
+            href="https://web.archive.org/web/20220927012101/http://www.clubmagellano.it/prenotazioni-club-magellano/?viag=Okt&amp;pack=Roul&amp;citta=Terni"
+            target="_blank" rel="nofollow" style="height: 70px;"><strong>Terni</strong>Casello Orvieto, ore 19:45<span
+                class="tooltip_a_bottom" style="left: 75px; bottom: 90px;"><strong>150 €</strong></span></a><a
+            href="https://web.archive.org/web/20220927012101/http://www.clubmagellano.it/prenotazioni-club-magellano/?viag=Okt&amp;pack=Roul&amp;citta=Torino"
+            target="_blank" rel="nofollow" style="height: 70px;"><strong>Torino</strong>Corso Marche ang. Corso Francia
+            (Alenia Spazio - M1 Marche), ore 19:30<span class="tooltip_a_bottom"
+                style="left: 75px; bottom: 90px;"><strong>125 €</strong></span></a><a
+            href="https://web.archive.org/web/20220927012101/http://www.clubmagellano.it/prenotazioni-club-magellano/?viag=Okt&amp;pack=Roul&amp;citta=Tortona"
+            target="_blank" rel="nofollow" style="height: 70px;"><strong>Tortona</strong>Casello, parcheggio, ore
+            21:30<span class="tooltip_a_bottom" style="left: 75px; bottom: 90px;"><strong>124 €</strong></span></a><a
+            href="https://web.archive.org/web/20220927012101/http://www.clubmagellano.it/prenotazioni-club-magellano/?viag=Okt&amp;pack=Roul&amp;citta=Trento"
+            target="_blank" rel="nofollow" style="height: 70px;"><strong>Trento</strong>Casello Sud, ore 01:30<span
+                class="tooltip_a_bottom" style="left: 75px; bottom: 90px;"><strong>90 €</strong></span></a><a
+            href="https://web.archive.org/web/20220927012101/http://www.clubmagellano.it/prenotazioni-club-magellano/?viag=Okt&amp;pack=Roul&amp;citta=Treviso"
+            target="_blank" rel="nofollow" style="height: 70px;"><strong>Treviso</strong>Casello Quarto d'Altino,
+            parcheggio, ore 01:20<span class="tooltip_a_bottom" style="left: 75px; bottom: 90px;"><strong>105
+                    €</strong></span></a><a
+            href="https://web.archive.org/web/20220927012101/http://www.clubmagellano.it/prenotazioni-club-magellano/?viag=Okt&amp;pack=Roul&amp;citta=Trezzo"
+            target="_blank" rel="nofollow" style="height: 70px;"><strong>Trezzo</strong>Casello, ore 22:50<span
+                class="tooltip_a_bottom" style="left: 75px; bottom: 90px;"><strong>109 €</strong></span></a><a
+            href="https://web.archive.org/web/20220927012101/http://www.clubmagellano.it/prenotazioni-club-magellano/?viag=Okt&amp;pack=Roul&amp;citta=Udine"
+            target="_blank" rel="nofollow" style="height: 70px;"><strong>Udine</strong>Casello Nord, ore 02:30<span
+                class="tooltip_a_bottom" style="left: 75px; bottom: 90px;"><strong>104 €</strong></span></a><a
+            href="https://web.archive.org/web/20220927012101/http://www.clubmagellano.it/prenotazioni-club-magellano/?viag=Okt&amp;pack=Roul&amp;citta=Valdarno"
+            target="_blank" rel="nofollow" style="height: 70px;"><strong>Valdarno</strong>Casello Valdarno, ore
+            21:00<span class="tooltip_a_bottom" style="left: 75px; bottom: 90px;"><strong>140 €</strong></span></a><a
+            href="https://web.archive.org/web/20220927012101/http://www.clubmagellano.it/prenotazioni-club-magellano/?viag=Okt&amp;pack=Roul&amp;citta=Varese"
+            target="_blank" rel="nofollow" style="height: 70px;"><strong>Varese</strong>Stazione F.S., ore 23:15<span
+                class="tooltip_a_bottom" style="left: 75px; bottom: 90px;"><strong>109 €</strong></span></a><a
+            href="https://web.archive.org/web/20220927012101/http://www.clubmagellano.it/prenotazioni-club-magellano/?viag=Okt&amp;pack=Roul&amp;citta=Vasto"
+            target="_blank" rel="nofollow" style="height: 70px;"><strong>Vasto</strong>Casello Nord, ore 16:45<span
+                class="tooltip_a_bottom" style="left: 75px; bottom: 90px;"><strong>155 €</strong></span></a><a
+            href="https://web.archive.org/web/20220927012101/http://www.clubmagellano.it/prenotazioni-club-magellano/?viag=Okt&amp;pack=Roul&amp;citta=Venezia"
+            target="_blank" rel="nofollow" style="height: 70px;"><strong>Venezia</strong>Casello Autostradale A4 uscita
+            di
+            Spinea, ore 00:55<span class="tooltip_a_bottom" style="left: 75px; bottom: 90px;"><strong>100
+                    €</strong></span></a><a
+            href="https://web.archive.org/web/20220927012101/http://www.clubmagellano.it/prenotazioni-club-magellano/?viag=Okt&amp;pack=Roul&amp;citta=Verona"
+            target="_blank" rel="nofollow" style="height: 70px;"><strong>Verona</strong>Casello Nord, ore 00:30<span
+                class="tooltip_a_bottom" style="left: 75px; bottom: 90px;"><strong>104 €</strong></span></a><a
+            href="https://web.archive.org/web/20220927012101/http://www.clubmagellano.it/prenotazioni-club-magellano/?viag=Okt&amp;pack=Roul&amp;citta=Viareggio"
+            target="_blank" rel="nofollow" style="height: 70px;"><strong>Viareggio</strong>Casello Viareggio-Camaiore,
+            ore
+            19:55<span class="tooltip_a_bottom" style="left: 75px; bottom: 90px;"><strong>140 €</strong></span></a><a
+            href="https://web.archive.org/web/20220927012101/http://www.clubmagellano.it/prenotazioni-club-magellano/?viag=Okt&amp;pack=Roul&amp;citta=Vicenza"
+            target="_blank" rel="nofollow" style="height: 70px;"><strong>Vicenza</strong>Casello Ovest, ore 00:10<span
+                class="tooltip_a_bottom" style="left: 75px; bottom: 90px;"><strong>104 €</strong></span></a><a
+            href="https://web.archive.org/web/20220927012101/http://www.clubmagellano.it/prenotazioni-club-magellano/?viag=Okt&amp;pack=Roul&amp;citta=Viterbo"
+            target="_blank" rel="nofollow" style="height: 70px;"><strong>Viterbo</strong>Casello Orte, ore 18:45<span
+                class="tooltip_a_bottom" style="left: 75px; bottom: 90px;"><strong>150 €</strong></span></a><a
+            href="https://web.archive.org/web/20220927012101/http://www.clubmagellano.it/prenotazioni-club-magellano/?viag=Okt&amp;pack=Roul&amp;citta=Voghera"
+            target="_blank" rel="nofollow" style="height: 70px;"><strong>Voghera</strong>Casello Caseigerola, ore
+            21:50<span class="tooltip_a_bottom" style="left: 75px; bottom: 90px;"><strong>119 €</strong></span></a>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"
+        integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+
+    <script>
+        $('a').hover(function () {
+            $(this).find('.tooltip_a_bottom').css('display', 'block')
+        }, function () {
+            $(this).find('.tooltip_a_bottom').css('display', 'none')
+        })
+    </script>
+</body>
+
+</html>
